@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/new-athletic-m54');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'New Athletic M54', sans-serif;
+    height: 100vh;
+}
+
+.counter_container{
+    display: flex;
+    justify-content:center;
+    justify-content: space-between;
+    align-items:center;
+    margin:250px auto;
+    width: 450px;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 200px red;
+}
+
+.btn{
+    font-size: 100px;
+    background: none;
+    border: none;
+    font-weight:bold;
+}
+
+.ctr_data{
+    font-size: 100px;
+    font-weight:bold;
+}
