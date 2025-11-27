@@ -1,4 +1,4 @@
-let count = 1;
+let count = 0;
 function increase(){
     count++;
     document.getElementById("ctr_data").innerHTML = count;
@@ -9,4 +9,5 @@ function decrease(){
         count--;
         document.getElementById("ctr_data").innerHTML = count;
     }
+
 }
