@@ -1,4 +1,4 @@
-let count = 0;
+let count = 1;
 function increase(){
     count++;
     document.getElementById("ctr_data").innerHTML = count;
@@ -11,3 +11,4 @@ function decrease(){
     }
 
 }
+
